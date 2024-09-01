@@ -1,0 +1,39 @@
+.description {
+  display: none;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.title.active + .description {
+  display: block;
+}
+
+.title {
+  cursor: pointer;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 22px;
+  color: #008080;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.description {
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #555;
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 44px;
+  color: rgb(90, 87, 87);
+  text-align: center;
+}
